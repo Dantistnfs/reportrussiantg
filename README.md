@@ -35,7 +35,7 @@ https://digitalocean.com
 ```shell
 apt install -y unzip
 
-wget https://github.com/Dantistnfs/reportrussiantg/archive/refs/heads/main >> main.zip && unzip main && cd reportrussiantg
+wget https://github.com/Dantistnfs/reportrussiantg/archive/refs/heads/main.zip && unzip main && cd reportrussiantg-main
 docker-compose build && docker-compose run app
 ```
 8. After Install enter your phone number end press Enter
