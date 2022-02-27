@@ -5,5 +5,8 @@ services:
     stdin_open: true
     tty: true
     build: .
+    env_file:
+      - .env
     volumes:
       - ./db/:/app/db/
+    command: bash -c "python get_session_from_bot.py && python ban_chat.py"

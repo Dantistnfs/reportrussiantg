@@ -8,7 +8,7 @@ from tqdm import tqdm
 import sqlite3
 
 
-requests_limit = 100
+requests_limit = 300
 requests_reset = 60*60*24 # 1 DAY
 requests_done = 0
 time_to_reset = time.time() + requests_reset
@@ -24,9 +24,9 @@ reasons = ["Ukraine", "Russian invasion", "War in Ukraine", "Russia started war"
            "Російське вторгнення","Російське вторгнення в Україну"]
 end_symbols = ["!",".","!!","!!!"]
 
-api_id = 17298364
-api_hash = '80727307a3ba5fbddb016dcb531afeef'
-client = TelegramClient('tgautomate', api_id, api_hash)
+api_id = 2040
+api_hash = 'b18441a1ff607e10a989891a5462e627'
+client = TelegramClient('bot', api_id, api_hash)
 client.start()
 
 

@@ -8,3 +8,4 @@ rsa==4.8
 Telethon==1.24.0
 urllib3==1.26.8
 tqdm
+opentele

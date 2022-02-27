@@ -1,3 +1,7 @@
 *.session
 venv/
 db/
+*.zip
+.env
+account/
+bot_downloads.txt
