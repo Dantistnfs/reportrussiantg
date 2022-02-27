@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  app:
+    stdin_open: true
+    tty: true
+    build: .
+    volumes:
+      - ./db/:/app/db/
