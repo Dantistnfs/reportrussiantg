@@ -50,7 +50,7 @@ while True:
                     except Exception as e:
                         print(f"Exception in sending ban to {channel}")
                         print(e)
-                    sleep_until_next_report = 60+60*random.random()*9 # from 1 minute to 10 minutes
+                    sleep_until_next_report = 30+30*random.random() # from 30 seconds to 1 minute
                     print(f"Sleeping {sleep_until_next_report/60} minutes")
                     time.sleep(sleep_until_next_report)
                     cursor.execute(f"""INSERT INTO reported(channel) VALUES(?)""", (channel,))
