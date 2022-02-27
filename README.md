@@ -1,7 +1,11 @@
 
+# Now accepting donations for buying tg accounts:
+`49JZ2iC1nq93EGobejdBzxU9yVmy9m2pUSP5rkFuFSK6f8BFpP8x1DWZZhAYxGYg1C4SgQG5zpZudLncksDSHTonKZ5FJnH`
 
-1. Install docker and docker-compose
-2. Run `docker-compose build && docker-compose run app`
+1. Buy tg accounts and get links to them on mega
+2. Enter link per unique machine(IP) in .env file, see .env.sample file for reference
+3. Install docker and docker-compose
+4. Run `docker-compose build && docker-compose run app`
 
 Note: container doesn't save your telegram session, so on restart you will need to relogin
 
